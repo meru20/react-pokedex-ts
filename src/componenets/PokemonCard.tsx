@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { setTypeColor } from '../services';
 
-interface TodoListProps {
+interface PokemonProps {
     pokemon: Pokemon;
    
   }
 
-const PokemonCard: React.FC<TodoListProps> = ({pokemon}) => {
+const PokemonCard: React.FC<PokemonProps> = ({pokemon}) => {
     return (
         <div className='card'>
         <div className='row no-gutters'>
